@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-security-course
+
+  data:
+    web:
+      pageable:
+        page-parameter: p
+        size-parameter: limit
+
+  jpa:
+    show-sql: true
+
+
+server:
+  port: 8090
+  servlet:
+    context-path: /api/v1
