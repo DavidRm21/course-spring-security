@@ -16,7 +16,7 @@ public class Category {
     private Long id;
     private String name;
     @Enumerated(EnumType.STRING)
-    private CategoryStatus categoryStatus;
+    private CategoryStatus status;
 
     public static enum CategoryStatus{
         ENABLED, DISABLED
